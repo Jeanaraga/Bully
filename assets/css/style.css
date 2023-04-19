@@ -34,6 +34,12 @@ h6,
   font-family: "Raleway", sans-serif;
 }
 
+.interno h4 {
+  font-size: 18px;
+  margin: 0;
+  color: #eb5d1e;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1375,4 +1381,28 @@ margin: 0;
     text-align-last: center;
     padding: 3px 0;
   }
+}
+
+.meu-butaozin{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.meu-butaozin button {
+  background-color: #eb5d1e;
+  transition: 0.5s ease;
+}
+
+.meu-butaozin button:hover {
+  background-color: #fff;
+  border-color: #eb5d1e;
+}
+
+.meu-butaozin button a {
+  color: #fff;
+}
+
+.meu-butaozin button:hover a {
+  color: #eb5d1e;
 }
